@@ -2681,6 +2681,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3103,6 +3223,179 @@
 				)
 			)
 		)
+		(symbol "rsx_HID:Button"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Button"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "rsx_HID:FSMSMTR"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "TE Connectivity ALCOSWITCH Switches"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "450-1758-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FSMSMTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Button_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "rsx_LEDs:LED_B"
 			(pin_numbers hide)
 			(pin_names
@@ -3495,30 +3788,39 @@
 				)
 			)
 		)
-		(symbol "rsx_LEDs:LED_R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "rsx_Relays:G5LE-1_12V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "LED_R"
-				(at 0 -2.54 0)
+			(property "Value" "G5LE-1_12V"
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(property "Footprint" "rsx_relays:Relay_SPDT_Omron-G5LE-1"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3527,7 +3829,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "RELAY GEN PURPOSE SPDT 10A 12V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3536,7 +3838,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED RED CLEAR SMD"
+			(property "MFR" "Omron Electronics Inc-EMC Div"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3545,7 +3847,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFR" "Lite-On Inc."
+			(property "DPN" "Z12700-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3554,7 +3856,7 @@
 					(hide yes)
 				)
 			)
-			(property "DPN" "160-1178-1-ND"
+			(property "MPN" "G5LE-14-36 DC12"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3563,7 +3865,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LTST-C170EKT"
+			(property "ki_keywords" "Miniature Single Pole Relay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3572,7 +3874,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_fp_filters" "Relay*SPDT*Omron*G5LE?1*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3581,67 +3883,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_R_0_1"
+			(symbol "G5LE-1_12V_0_0"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3652,341 +3897,21 @@
 					)
 				)
 			)
-			(symbol "LED_R_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "rsx_LEDs:LED_Y"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_Y"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "rsx_leds:LED_0805_2012Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED YELLOW CLEAR SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Lite-On Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DPN" "160-1175-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LTST-C170YKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Y_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Y_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "rsx_Resistors:0R100 1/2W"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0R100 1{slash}2W"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "rsx_resistors:R_1206_3216Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 0.1 OHM 1% 1/2W 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Stackpole Electronics Inc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DPN" "CSR1206FTR100CT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CSR1206FTR100"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0R100 1/2W_0_1"
+			(symbol "G5LE-1_12V_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3995,11 +3920,143 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "0R100 1/2W_1_1"
+			(symbol "G5LE-1_12V_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 5.08 -7.62 90)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -4016,8 +4073,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at -5.08 -7.62 90)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -4026,6 +4083,60 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4331,6 +4442,154 @@
 				)
 			)
 		)
+		(symbol "rsx_Resistors:100R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 100 OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Stackpole Electronics Inc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "RMCF0603FT100RCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RMCF0603FT100R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "rsx_Resistors:1K"
 			(pin_numbers hide)
 			(pin_names
@@ -4441,154 +4700,6 @@
 				)
 			)
 			(symbol "1K_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "rsx_Resistors:200R_2W"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "200R_2W"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "rsx_resistors:R_2512_6332Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 200 OHM 1% 2W 2512"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Bourns Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DPN" "CRM2512-FX-2000ELFCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CRM2512-FX-2000ELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "200R_2W_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "200R_2W_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -6427,6 +6538,420 @@
 				)
 			)
 		)
+		(symbol "rsx_Transistors:RXH090N03"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RXH090N03"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "4V DRIVE NCH MOSFET: MOSFETS ARE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Rohm Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "846-RXH090N03TB1CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RXH090N03TB1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PowerPAK*SO*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RXH090N03_0_0"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RXH090N03_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "RXH090N03_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "rsx_diodes:DSS16U"
 			(pin_numbers hide)
 			(pin_names
@@ -7876,18 +8401,172 @@
 				)
 			)
 		)
+		(symbol "rsx_sensors:MCP9700A-E/TO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-40C-125C"
+				(at 2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
+				(at -21.082 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"
+				(at -1.016 25.146 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SENSOR ANALOG -40C-125C TO92-3"
+				(at 26.162 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Microchip Technology"
+				(at 11.938 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "MCP9700A-E/TO-ND"
+				(at 30.988 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MCP9700A-E/TO"
+				(at -19.558 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP9700A-E/TO_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 504.19 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02142406-1746-440c-9880-ce1454cfe848")
-	)
-	(junction
-		(at 472.44 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04c1aaf0-c78e-4a27-ae17-dd956a44cdd5")
 	)
 	(junction
 		(at 356.87 40.64)
@@ -7908,22 +8587,40 @@
 		(uuid "11a66147-4397-412d-8d45-dcbaa0855486")
 	)
 	(junction
+		(at 265.43 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19df4beb-09fe-4dc8-b3b1-4db4dd89c87a")
+	)
+	(junction
+		(at 175.26 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a25ca67-e71d-4276-8227-dadec21bb7d7")
+	)
+	(junction
+		(at 502.92 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28cbba61-de0a-4c2b-8ec6-d79ab9262cc3")
+	)
+	(junction
 		(at 504.19 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a5709dd-4027-4f23-a71c-e15f0f0207f5")
 	)
 	(junction
+		(at 175.26 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cb9a7ee-4d0e-4486-a266-613d319dffa7")
+	)
+	(junction
 		(at 537.21 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42497b63-90eb-48b3-9dc4-9a465a84908b")
-	)
-	(junction
-		(at 472.44 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45352466-18f1-48de-82c5-481ee7ef60e8")
 	)
 	(junction
 		(at 509.27 219.71)
@@ -7938,10 +8635,28 @@
 		(uuid "4f5329f4-d11a-4771-82de-4fab92158394")
 	)
 	(junction
+		(at 175.26 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50e185e1-dc2b-4b75-969c-fa520b9d2e30")
+	)
+	(junction
 		(at 502.92 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51e3954e-4f50-4036-b1db-32bc78dc5ded")
+	)
+	(junction
+		(at 425.45 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ab43197-fb0f-4497-94fb-af20ab1946ea")
+	)
+	(junction
+		(at 504.19 297.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63fe9f05-cb08-42bd-9000-7a7edcd11265")
 	)
 	(junction
 		(at 449.58 100.33)
@@ -8010,16 +8725,34 @@
 		(uuid "a0bf7c25-4fc2-4dcb-9b25-7cbdefeced54")
 	)
 	(junction
+		(at 175.26 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a10c7a24-8ee9-4ab6-906c-40662e450da6")
+	)
+	(junction
 		(at 449.58 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2640e2e-e743-4716-9c69-7c923272c66a")
 	)
 	(junction
+		(at 298.45 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fb5aca-4b05-461f-a637-c9a8b9f8d05e")
+	)
+	(junction
 		(at 381 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6565f7f-da41-442f-a808-2ebb40ebfd6d")
+	)
+	(junction
+		(at 429.26 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b33d5092-0fb7-452d-b529-deb25948c7c1")
 	)
 	(junction
 		(at 551.18 162.56)
@@ -8075,15 +8808,33 @@
 		(color 0 0 0 0)
 		(uuid "e5e254ce-b5d5-4da2-bd82-d09df7e9a65e")
 	)
-	(junction
-		(at 472.44 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f57628e0-caf8-4471-8306-324d04ca6e6b")
+	(no_connect
+		(at 284.48 210.82)
+		(uuid "0442fee0-60a5-45fb-b4b2-e65e5ba8de7c")
 	)
 	(wire
 		(pts
-			(xy 422.91 257.81) (xy 426.72 257.81)
+			(xy 265.43 234.95) (xy 289.56 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004918d5-98d5-4ce3-aa67-17a39d311b1d")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038c7dff-8e08-4db7-874d-273ab8059711")
+	)
+	(wire
+		(pts
+			(xy 422.91 257.81) (xy 425.45 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8093,7 +8844,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 214.63) (xy 113.03 214.63)
+			(xy 138.43 214.63) (xy 132.08 214.63)
 		)
 		(stroke
 			(width 0)
@@ -8203,6 +8954,16 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 257.81) (xy 426.72 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123eecae-d299-46e7-83cc-7a2cc5c4ba1a")
+	)
+	(wire
+		(pts
 			(xy 551.18 162.56) (xy 551.18 172.72)
 		)
 		(stroke
@@ -8223,17 +8984,27 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 147.32) (xy 444.5 147.32)
+			(xy 175.26 110.49) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14bc2349-97eb-4881-ad9f-c1449f4979aa")
+		(uuid "14bc084c-a0e9-402e-96a5-e6ce74a45667")
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 173.99 95.25)
+			(xy 115.57 123.19) (xy 116.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164afec5-83df-40ea-881c-c9ea053b6d96")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 154.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8250,6 +9021,26 @@
 			(type default)
 		)
 		(uuid "177d2792-309f-4150-b185-cd358cde9dc0")
+	)
+	(wire
+		(pts
+			(xy 429.26 317.5) (xy 429.26 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c5b157-d925-4d55-9406-5fd48f08d159")
+	)
+	(wire
+		(pts
+			(xy 504.19 316.23) (xy 504.19 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f0b220-4a9a-4278-9bee-90d70d7a8a1b")
 	)
 	(wire
 		(pts
@@ -8273,6 +9064,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 195.58) (xy 298.45 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e14a57-a7a8-48cf-9b61-4c6e084d6d84")
+	)
+	(wire
+		(pts
 			(xy 414.02 29.21) (xy 414.02 33.02)
 		)
 		(stroke
@@ -8293,6 +9094,16 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 279.4) (xy 502.92 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf51025-d71e-4933-af39-e62a297718ad")
+	)
+	(wire
+		(pts
 			(xy 447.04 100.33) (xy 447.04 110.49)
 		)
 		(stroke
@@ -8303,7 +9114,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 92.71) (xy 196.85 92.71)
+			(xy 175.26 62.23) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8343,16 +9154,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 196.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2474b5bd-715f-4830-8c2f-8180ce269fdc")
-	)
-	(wire
-		(pts
 			(xy 549.91 97.79) (xy 558.8 97.79)
 		)
 		(stroke
@@ -8373,6 +9174,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 153.67) (xy 175.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27864b8a-91fe-4e46-bb43-f5906367680a")
+	)
+	(wire
+		(pts
 			(xy 549.91 105.41) (xy 548.64 105.41)
 		)
 		(stroke
@@ -8380,26 +9191,6 @@
 			(type default)
 		)
 		(uuid "280ee3bd-fe53-4d38-b0f6-18e387da1db1")
-	)
-	(wire
-		(pts
-			(xy 185.42 119.38) (xy 196.85 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f18544-88d7-41a3-9060-e797eaebb791")
-	)
-	(wire
-		(pts
-			(xy 414.02 147.32) (xy 425.45 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29d4686a-18bb-426e-9bec-0c2ad3a91e61")
 	)
 	(wire
 		(pts
@@ -8430,6 +9221,16 @@
 			(type default)
 		)
 		(uuid "2cd2b665-928e-41be-896f-00b701d980fb")
+	)
+	(wire
+		(pts
+			(xy 175.26 168.91) (xy 175.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db25b9e-eb80-4153-acf7-c7504760905a")
 	)
 	(wire
 		(pts
@@ -8473,6 +9274,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 153.67) (xy 184.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355e8544-50ff-4731-80d1-4210a00fce95")
+	)
+	(wire
+		(pts
 			(xy 414.02 40.64) (xy 414.02 49.53)
 		)
 		(stroke
@@ -8480,16 +9291,6 @@
 			(type default)
 		)
 		(uuid "37607c4e-041f-4008-82c6-28b15012f08d")
-	)
-	(wire
-		(pts
-			(xy 452.12 170.18) (xy 472.44 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a50d34e-65f7-4349-ae08-02c95158990b")
 	)
 	(wire
 		(pts
@@ -8513,13 +9314,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 168.91 100.33)
+			(xy 113.03 100.33) (xy 151.13 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3c6232b2-4183-4e38-a9b5-aa4e2c9b8139")
+	)
+	(wire
+		(pts
+			(xy 261.62 203.2) (xy 269.24 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee558bd-beee-4e5e-8cd6-8ea3c575c45f")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7d8535-40e5-42f9-809c-d9429f000995")
 	)
 	(wire
 		(pts
@@ -8553,43 +9374,43 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 135.89) (xy 425.45 135.89)
+			(xy 124.46 113.03) (xy 128.27 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42874e6c-368e-4427-9f02-42dcfe20e698")
+		(uuid "4678e2e3-a4de-41ea-a205-2d6c070c3901")
 	)
 	(wire
 		(pts
-			(xy 433.07 158.75) (xy 444.5 158.75)
+			(xy 175.26 140.97) (xy 175.26 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "429bd2ff-3ab1-458a-a22f-01aae91376c1")
+		(uuid "4845af95-57be-4e22-b06e-70461d997270")
 	)
 	(wire
 		(pts
-			(xy 433.07 170.18) (xy 444.5 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4919e5fb-2c9f-42bc-a384-bd39af28581f")
-	)
-	(wire
-		(pts
-			(xy 168.91 100.33) (xy 168.91 119.38)
+			(xy 151.13 100.33) (xy 151.13 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4aaa355d-628d-42e7-b644-f518e3f87a4a")
+	)
+	(wire
+		(pts
+			(xy 313.69 195.58) (xy 298.45 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb5e063-565e-497d-ada7-b6544f72cb63")
 	)
 	(wire
 		(pts
@@ -8603,13 +9424,13 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 147.32) (xy 472.44 158.75)
+			(xy 156.21 62.23) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cb0d7b9-14bd-4c26-a23c-02cf60e9333a")
+		(uuid "4d892f43-2bdb-4ca7-86a7-d1446d2d986e")
 	)
 	(wire
 		(pts
@@ -8633,6 +9454,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 232.41) (xy 289.56 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533b3ec3-2526-41b9-b1cd-01e498532bae")
+	)
+	(wire
+		(pts
 			(xy 499.11 212.09) (xy 504.19 212.09)
 		)
 		(stroke
@@ -8640,6 +9471,26 @@
 			(type default)
 		)
 		(uuid "53a8878b-840e-4c9d-9493-88784e2c3c49")
+	)
+	(wire
+		(pts
+			(xy 288.29 232.41) (xy 288.29 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54796abd-107e-4734-a919-bf34c82e4dce")
+	)
+	(wire
+		(pts
+			(xy 261.62 195.58) (xy 261.62 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55186a76-3761-4ec2-9365-833c907da33e")
 	)
 	(wire
 		(pts
@@ -8673,13 +9524,23 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 147.32) (xy 472.44 147.32)
+			(xy 429.26 298.45) (xy 431.8 298.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cfd0397-5acb-415d-866c-25c8fb675bd8")
+		(uuid "5d3359e4-467e-41a1-81ae-de6d70c630ef")
+	)
+	(wire
+		(pts
+			(xy 175.26 125.73) (xy 189.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3e3982-8aed-4834-87b7-0f78bc873dea")
 	)
 	(wire
 		(pts
@@ -8763,6 +9624,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 214.63) (xy 113.03 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699197a0-9cae-44c0-b683-798da244a645")
+	)
+	(wire
+		(pts
 			(xy 356.87 62.23) (xy 356.87 57.15)
 		)
 		(stroke
@@ -8780,6 +9651,16 @@
 			(type default)
 		)
 		(uuid "6cbe6c86-f520-4562-9c04-c65da910ca5d")
+	)
+	(wire
+		(pts
+			(xy 168.91 125.73) (xy 175.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8a5b62-5652-4bb3-b070-da54f7875ede")
 	)
 	(wire
 		(pts
@@ -8873,27 +9754,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 158.75) (xy 472.44 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7984a57c-e4d1-46e6-9812-d8ed32489c9a")
-	)
-	(wire
-		(pts
-			(xy 433.07 135.89) (xy 444.5 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad66473-f494-47de-868e-0ae2d85a501a")
-	)
-	(wire
-		(pts
-			(xy 113.03 217.17) (xy 116.84 217.17)
+			(xy 123.19 227.33) (xy 124.46 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8933,13 +9794,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 97.79) (xy 171.45 97.79)
+			(xy 153.67 97.79) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80185b34-781f-4ba8-b106-745ef4357f32")
+		(uuid "8175cf1b-1b36-4eea-9759-54afe9fa3741")
 	)
 	(wire
 		(pts
@@ -8993,6 +9854,26 @@
 	)
 	(wire
 		(pts
+			(xy 504.19 297.18) (xy 504.19 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c248d8-1806-4e5b-932f-8deea6ec89fa")
+	)
+	(wire
+		(pts
+			(xy 425.45 257.81) (xy 425.45 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d915b0-556b-402c-a77d-dc24d65f1784")
+	)
+	(wire
+		(pts
 			(xy 519.43 219.71) (xy 509.27 219.71)
 		)
 		(stroke
@@ -9000,6 +9881,16 @@
 			(type default)
 		)
 		(uuid "8969a2a8-8040-482f-9322-12be17c8ae7c")
+	)
+	(wire
+		(pts
+			(xy 265.43 213.36) (xy 269.24 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a232ec6-39f9-4451-9b4a-0d2eca4ec7f9")
 	)
 	(wire
 		(pts
@@ -9033,6 +9924,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 123.19) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ab9118-d8a9-483c-9936-5ca080db590f")
+	)
+	(wire
+		(pts
 			(xy 340.36 53.34) (xy 340.36 57.15)
 		)
 		(stroke
@@ -9053,7 +9954,27 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 298.45) (xy 431.8 298.45)
+			(xy 298.45 219.71) (xy 298.45 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91feebde-7896-4487-959e-6e5abd6f0a7d")
+	)
+	(wire
+		(pts
+			(xy 284.48 195.58) (xy 284.48 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947f5bd5-a65d-4e64-b769-01f77a689f36")
+	)
+	(wire
+		(pts
+			(xy 427.99 298.45) (xy 429.26 298.45)
 		)
 		(stroke
 			(width 0)
@@ -9103,6 +10024,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 215.9) (xy 284.48 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d9deb9-1659-4ab8-8934-f66d4a56aba9")
+	)
+	(wire
+		(pts
 			(xy 535.94 60.96) (xy 551.18 60.96)
 		)
 		(stroke
@@ -9113,7 +10044,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 97.79) (xy 171.45 110.49)
+			(xy 153.67 97.79) (xy 153.67 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9130,16 +10061,6 @@
 			(type default)
 		)
 		(uuid "99433752-f0c3-4a98-9a34-4e89d4df75d1")
-	)
-	(wire
-		(pts
-			(xy 177.8 101.6) (xy 173.99 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b12790d-d59b-43d7-aaed-a5433ee3213f")
 	)
 	(wire
 		(pts
@@ -9183,7 +10104,17 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 297.18) (xy 505.46 297.18)
+			(xy 153.67 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a093a821-ce04-402c-8d84-9caf26a773ff")
+	)
+	(wire
+		(pts
+			(xy 501.65 297.18) (xy 504.19 297.18)
 		)
 		(stroke
 			(width 0)
@@ -9210,16 +10141,6 @@
 			(type default)
 		)
 		(uuid "a9f3326c-fdd8-4ba3-8a03-3b0c6fc5ac3c")
-	)
-	(wire
-		(pts
-			(xy 472.44 135.89) (xy 472.44 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aafa7673-e1e6-45e4-85bf-e3b2d60f3a11")
 	)
 	(wire
 		(pts
@@ -9293,6 +10214,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 227.33) (xy 304.8 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af417d75-1b70-437e-b32c-3d28029c5ac6")
+	)
+	(wire
+		(pts
 			(xy 40.64 115.57) (xy 46.99 115.57)
 		)
 		(stroke
@@ -9300,6 +10231,16 @@
 			(type default)
 		)
 		(uuid "b074623a-88e0-4298-8d80-18aa24aa9e52")
+	)
+	(wire
+		(pts
+			(xy 175.26 62.23) (xy 163.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21ff743-73ff-43f8-9fe7-5643db0022ad")
 	)
 	(wire
 		(pts
@@ -9343,6 +10284,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 227.33) (xy 314.96 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5047cf0-8040-46ac-9801-30201826ee66")
+	)
+	(wire
+		(pts
 			(xy 356.87 57.15) (xy 356.87 52.07)
 		)
 		(stroke
@@ -9350,6 +10301,16 @@
 			(type default)
 		)
 		(uuid "b5a24676-b68f-4e83-9e89-45bbb4318750")
+	)
+	(wire
+		(pts
+			(xy 502.92 260.35) (xy 504.19 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bdd7ea-2538-4e6f-a1b5-07733e1f7751")
 	)
 	(wire
 		(pts
@@ -9380,16 +10341,6 @@
 			(type default)
 		)
 		(uuid "b9710b7d-1974-4e11-a159-9740fefa15a6")
-	)
-	(wire
-		(pts
-			(xy 185.42 110.49) (xy 196.85 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b971406c-807f-4a67-a847-c6a31d8174a8")
 	)
 	(wire
 		(pts
@@ -9433,7 +10384,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 177.8 110.49)
+			(xy 123.19 217.17) (xy 113.03 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb0ecc2-5bd4-4912-8d89-3a2aa0bfde8d")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 161.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9460,6 +10421,16 @@
 			(type default)
 		)
 		(uuid "be3385a7-1d6a-4ecb-b6a4-082cc90f969f")
+	)
+	(wire
+		(pts
+			(xy 132.08 227.33) (xy 138.43 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a53af8-2926-440d-9662-5e57f53e2015")
 	)
 	(wire
 		(pts
@@ -9493,6 +10464,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 213.36) (xy 265.43 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c328dd0b-c28c-46b8-a7f8-3056b14abddb")
+	)
+	(wire
+		(pts
 			(xy 356.87 52.07) (xy 364.49 52.07)
 		)
 		(stroke
@@ -9513,6 +10494,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 195.58) (xy 313.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dfa2ed-0d2d-4193-b91d-824294f612cc")
+	)
+	(wire
+		(pts
 			(xy 502.92 154.94) (xy 502.92 157.48)
 		)
 		(stroke
@@ -9523,6 +10514,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 213.36) (xy 265.43 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f40331-8514-41d8-9957-631a2d3cef3b")
+	)
+	(wire
+		(pts
 			(xy 533.4 22.86) (xy 533.4 27.94)
 		)
 		(stroke
@@ -9530,16 +10531,6 @@
 			(type default)
 		)
 		(uuid "c728b21a-4314-444d-afb4-e066685eb75d")
-	)
-	(wire
-		(pts
-			(xy 173.99 101.6) (xy 173.99 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7545568-636b-4ab6-9b66-2b065e5424ab")
 	)
 	(wire
 		(pts
@@ -9573,7 +10564,7 @@
 	)
 	(wire
 		(pts
-			(xy 500.38 260.35) (xy 504.19 260.35)
+			(xy 500.38 260.35) (xy 502.92 260.35)
 		)
 		(stroke
 			(width 0)
@@ -9593,6 +10584,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 298.45) (xy 429.26 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd969290-b124-4fb5-b506-c393966f8704")
+	)
+	(wire
+		(pts
 			(xy 513.08 297.18) (xy 521.97 297.18)
 		)
 		(stroke
@@ -9600,6 +10601,16 @@
 			(type default)
 		)
 		(uuid "cdc5047e-f7e3-4ac0-ae68-ec4e2bca29c9")
+	)
+	(wire
+		(pts
+			(xy 123.19 227.33) (xy 123.19 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd3fc4f-2a65-4aca-8cd2-672b46e20086")
 	)
 	(wire
 		(pts
@@ -9623,13 +10634,13 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 158.75) (xy 425.45 158.75)
+			(xy 298.45 195.58) (xy 284.48 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d27a6d32-184c-4911-b6ed-abda28d7d02c")
+		(uuid "d4217e84-a78a-4adc-8fba-d44ec7fb3519")
 	)
 	(wire
 		(pts
@@ -9653,16 +10664,6 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 170.18) (xy 425.45 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d847ee36-0eac-4c60-90ef-4d881928db52")
-	)
-	(wire
-		(pts
 			(xy 509.27 227.33) (xy 519.43 227.33)
 		)
 		(stroke
@@ -9670,16 +10671,6 @@
 			(type default)
 		)
 		(uuid "d91409a9-6eb6-4fb6-a09c-c237cfc06ffa")
-	)
-	(wire
-		(pts
-			(xy 113.03 92.71) (xy 177.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d952f444-76e8-41e2-880e-a48c12fb9ac6")
 	)
 	(wire
 		(pts
@@ -9743,6 +10734,16 @@
 	)
 	(wire
 		(pts
+			(xy 504.19 297.18) (xy 505.46 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db60ade3-5d7d-4222-bd0b-5b9aea9768b3")
+	)
+	(wire
+		(pts
 			(xy 533.4 162.56) (xy 533.4 168.91)
 		)
 		(stroke
@@ -9773,16 +10774,6 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 135.89) (xy 472.44 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1839d9a-eeba-4e30-8977-36875f779d42")
-	)
-	(wire
-		(pts
 			(xy 502.92 43.18) (xy 502.92 45.72)
 		)
 		(stroke
@@ -9793,13 +10784,23 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 170.18) (xy 472.44 173.99)
+			(xy 115.57 115.57) (xy 113.03 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5b85e47-0525-4d3e-93c6-674e441d052d")
+		(uuid "e3dd6b0a-b12d-4b66-91a6-7677983cac5f")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66a679d-4fbf-4a6c-8004-d9959373bfe2")
 	)
 	(wire
 		(pts
@@ -9820,6 +10821,26 @@
 			(type default)
 		)
 		(uuid "eba5c00f-c261-4a74-bbb4-a35615e7bef2")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf68516-b69b-4b94-b6d3-017e3796dcfc")
+	)
+	(wire
+		(pts
+			(xy 502.92 260.35) (xy 502.92 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9c45f7-c31f-4a49-b001-ff10e42d975e")
 	)
 	(wire
 		(pts
@@ -9893,6 +10914,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 82.55) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7fc293-5654-475f-ae2e-5b83c1a8e732")
+	)
+	(wire
+		(pts
 			(xy 532.13 77.47) (xy 532.13 82.55)
 		)
 		(stroke
@@ -9903,7 +10934,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 177.8 119.38)
+			(xy 151.13 153.67) (xy 161.29 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9923,13 +10954,13 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 158.75) (xy 472.44 170.18)
+			(xy 425.45 276.86) (xy 425.45 280.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6e846b1-180f-4111-90b5-16018d1afdce")
+		(uuid "f70177a9-86a9-4b8f-8d85-565d2a96ef7f")
 	)
 	(wire
 		(pts
@@ -9953,6 +10984,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 95.25) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99804ad-54fb-4981-8ef4-fb3c62e3b7e0")
+	)
+	(wire
+		(pts
 			(xy 41.91 143.51) (xy 46.99 143.51)
 		)
 		(stroke
@@ -9963,13 +11004,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 113.03 115.57)
+			(xy 175.26 67.31) (xy 175.26 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "facbc67a-1796-4738-b303-99d63be945f0")
+		(uuid "fcfb6f3b-d8f0-4c7a-879c-160fdbab864a")
 	)
 	(wire
 		(pts
@@ -10010,6 +11051,28 @@
 			(type default)
 		)
 		(uuid "fea22c2a-9b57-49e9-88a3-7033a82686c5")
+	)
+	(global_label "TempMes4"
+		(shape input)
+		(at 46.99 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02ce61d0-d543-4f6c-aa64-55ed92d1d04f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3287 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "fan2_EN"
 		(shape input)
@@ -10077,28 +11140,6 @@
 			)
 		)
 	)
-	(global_label "12V"
-		(shape input)
-		(at 459.74 251.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ede24d7-047d-43b5-bd98-16483f3867db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 466.2328 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "12V_meas"
 		(shape input)
 		(at 41.91 148.59 180)
@@ -10121,75 +11162,9 @@
 			)
 		)
 	)
-	(global_label "12V"
-		(shape input)
-		(at 464.82 292.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1521f4c0-176d-4dbe-9384-ffb8c6818fb0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 471.3128 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RED"
-		(shape input)
-		(at 414.02 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "216aac5a-9cc2-4751-a91b-e8bf30e8ea02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 407.3458 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 537.21 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "331ad797-f321-4cf8-a17e-cb3bb4a22813")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 543.7028 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "fan1_EN"
 		(shape input)
-		(at 116.84 113.03 0)
+		(at 128.27 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10199,7 +11174,7 @@
 		)
 		(uuid "3b6bc56c-87a3-480c-9b79-e41bf953d222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5055 113.03 0)
+			(at 138.9355 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +11274,7 @@
 	)
 	(global_label "ENA_Boost(19V)"
 		(shape input)
-		(at 196.85 101.6 0)
+		(at 190.5 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10309,7 +11284,7 @@
 		)
 		(uuid "51140360-800f-472d-b2b6-1b3904e6a8e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.8937 101.6 0)
+			(at 208.5437 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,6 +11338,28 @@
 			)
 		)
 	)
+	(global_label "TempMes2"
+		(shape input)
+		(at 320.04 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57d3a999-469d-4634-8cb2-b6806eaec54b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.3787 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 377.19 194.31 180)
@@ -10387,7 +11384,7 @@
 	)
 	(global_label "fan4_EN"
 		(shape input)
-		(at 116.84 217.17 0)
+		(at 138.43 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10397,7 +11394,7 @@
 		)
 		(uuid "57ee1d18-39e2-4137-b344-289201845302")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5055 217.17 0)
+			(at 149.0955 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,24 +11404,24 @@
 			)
 		)
 	)
-	(global_label "BLUE"
+	(global_label "3.3V"
 		(shape input)
-		(at 414.02 135.89 180)
+		(at 341.63 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "58d335c4-a5f0-440e-9595-591a32782fad")
+		(uuid "5a38dc86-2703-4c70-a2cd-ff3afd062f3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 406.2572 135.89 0)
+			(at 348.7276 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10453,7 +11450,7 @@
 	)
 	(global_label "ENA_Buck(12V)"
 		(shape input)
-		(at 196.85 92.71 0)
+		(at 190.5 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10463,7 +11460,7 @@
 		)
 		(uuid "5bdd1f81-2273-49ab-8f3f-f7966e8deacb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.1076 92.71 0)
+			(at 207.7576 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,9 +11514,75 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 289.56 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d01fe4f-64a3-47ee-8ba5-fc88cc3ba6df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.6576 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "!E-STOP"
+		(shape input)
+		(at 113.03 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "713bebe0-a5ed-433a-abbe-e545b6573092")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.119 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 340.36 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79cb1131-b2f5-4910-979a-597eb9ea0839")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 347.4576 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "fan3_EN"
 		(shape input)
-		(at 116.84 214.63 0)
+		(at 138.43 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10529,7 +11592,7 @@
 		)
 		(uuid "7ae949df-0d46-4a67-994a-fc5d80460ce2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5055 214.63 0)
+			(at 149.0955 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,6 +11646,28 @@
 			)
 		)
 	)
+	(global_label "TempMes3"
+		(shape input)
+		(at 46.99 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bbad450-880b-449c-affe-6d7e8ae86691")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3287 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "24V"
 		(shape input)
 		(at 414.02 29.21 90)
@@ -10607,7 +11692,7 @@
 	)
 	(global_label "ENA_Boost(56V)"
 		(shape input)
-		(at 196.85 110.49 0)
+		(at 189.23 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10617,7 +11702,7 @@
 		)
 		(uuid "8ef81f0f-93bc-4d5c-9a7c-e105dfa5cd21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.8937 110.49 0)
+			(at 207.2737 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,9 +11712,9 @@
 			)
 		)
 	)
-	(global_label "YELLOW"
+	(global_label "V_BAT+"
 		(shape input)
-		(at 414.02 170.18 180)
+		(at 264.16 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10637,9 +11722,9 @@
 			)
 			(justify right)
 		)
-		(uuid "917c9b27-4fd7-4938-a212-cf74e6b5027f")
+		(uuid "902590b5-f295-47c9-8b24-ccf3e99cb957")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 403.9591 170.18 0)
+			(at 254.22 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,9 +11756,31 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 290.83 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9752028f-a0ed-4252-a88a-c3c581c30cae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 297.9276 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENA_Boost(24V)"
 		(shape input)
-		(at 196.85 119.38 0)
+		(at 184.15 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10683,12 +11790,56 @@
 		)
 		(uuid "999b58d2-f74d-434b-a1a7-82a1ac8ab737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.8937 119.38 0)
+			(at 202.1937 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TempMes4"
+		(shape input)
+		(at 321.31 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cf8b435-d227-49d7-a94c-10236ba9611a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.6487 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TempMes1"
+		(shape input)
+		(at 269.24 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9dba0369-d992-43a4-bc3a-8c41322cbf0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.5787 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10869,6 +12020,28 @@
 			)
 		)
 	)
+	(global_label "TempMes2"
+		(shape input)
+		(at 46.99 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab9bd63d-cdde-4814-83eb-3029b7b13115")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3287 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "30A_meas"
 		(shape input)
 		(at 377.19 214.63 180)
@@ -10979,28 +12152,6 @@
 			)
 		)
 	)
-	(global_label "12V"
-		(shape input)
-		(at 538.48 290.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb2bcd1b-8295-4780-b90a-21126d3f56e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 544.9728 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "24V_meas"
 		(shape input)
 		(at 116.84 57.15 0)
@@ -11091,7 +12242,7 @@
 	)
 	(global_label "fan2_EN"
 		(shape input)
-		(at 116.84 115.57 0)
+		(at 128.27 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11101,7 +12252,7 @@
 		)
 		(uuid "d5637305-169c-49ab-9c0b-1ea1f5e11354")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5055 115.57 0)
+			(at 138.9355 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,9 +12262,31 @@
 			)
 		)
 	)
-	(global_label "Green"
+	(global_label "TempMes1"
 		(shape input)
-		(at 414.02 147.32 180)
+		(at 113.03 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1b2efce-2392-4b3f-b888-bcdbc9606d08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.6913 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TempMes3"
+		(shape input)
+		(at 270.51 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11121,9 +12294,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d5f3f72e-2be9-496f-8c70-42d6a3e4435f")
+		(uuid "e9719eb1-8094-461b-9828-92759388a436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 405.6524 147.32 0)
+			(at 257.8487 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11265,6 +12438,28 @@
 			)
 		)
 	)
+	(global_label "!E-STOP"
+		(shape input)
+		(at 321.31 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc811f4c-7dca-4f68-a070-1066abb29f0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.399 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "30A_meas"
 		(shape input)
 		(at 41.91 146.05 180)
@@ -11306,6 +12501,167 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 425.45 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "041717b9-250c-488a-86e8-300ff6149667")
+		(property "Reference" "#PWR037"
+			(at 425.45 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 425.45 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 425.45 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 425.45 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "855974f6-c612-4ce7-bdc4-357995d88ce9")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:100R")
+		(at 165.1 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0438b4fd-22a4-4ba2-99d3-2beeea848238")
+		(property "Reference" "R34"
+			(at 165.1 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 165.1 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 165.1 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100R"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e12e80e-eecc-4098-a9ec-fe83dc99ec96")
+		)
+		(pin "1"
+			(uuid "1501c738-2802-4e83-816d-09d9c4ad447a")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R34")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11407,6 +12763,103 @@
 		)
 	)
 	(symbol
+		(lib_id "rsx_Resistors:330R")
+		(at 425.45 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08fd2d20-a2d1-4ed6-8d2a-2cc40472a5ff")
+		(property "Reference" "R20"
+			(at 427.99 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 427.99 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 423.672 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 425.45 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 425.45 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 425.45 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 425.45 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e55b34d-accd-4872-9d3e-e7955ab2a31e")
+		)
+		(pin "1"
+			(uuid "474e4b59-1970-4700-af82-39ccfa6d5058")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Capacitors:1u")
 		(at 533.4 31.75 0)
 		(unit 1)
@@ -11498,101 +12951,6 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:0R100 1/2W")
-		(at 181.61 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cb3a3bb-ccb5-458a-8d33-ed425366b7ec")
-		(property "Reference" "R19"
-			(at 181.61 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R100 1/2W"
-			(at 181.61 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_1206_3216Metric"
-			(at 181.61 121.158 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.1 OHM 1% 1/2W 1206"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "CSR1206FTR100CT-ND"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSR1206FTR100"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d0ef89c-5f18-4e9e-af17-e51d90c6c40b")
-		)
-		(pin "2"
-			(uuid "10325c55-3622-4ccf-828a-f121b9b68500")
-		)
-		(instances
-			(project "MCU"
-				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11825,6 +13183,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12591262-8f80-4b52-a629-eaf38040fed4")
+		(property "Reference" "#PWR036"
+			(at 175.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e22890d-8d56-496f-88a7-ba33b4e780a7")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_opamps:INA597IDR")
 		(at 535.94 43.18 0)
 		(unit 1)
@@ -11938,109 +13362,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:2N7002K")
-		(at 448.31 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13a554f4-3590-4c69-b3dd-ee39db67a93a")
-		(property "Reference" "Q1"
-			(at 454.66 256.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 454.66 259.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
-			(at 453.39 259.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 448.31 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-CH 60V 300MA SOT23-3"
-			(at 448.31 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Vishay Siliconix"
-			(at 448.31 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "742-2N7002K-T1-E3CT-ND"
-			(at 448.31 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2N7002K-T1-E3"
-			(at 448.31 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8c1dc99d-abcb-4c50-8f21-42d8e777576d")
-		)
-		(pin "2"
-			(uuid "254ea565-dfca-4fcb-b850-580faf39141f")
-		)
-		(pin "1"
-			(uuid "85ca8328-5b40-47bc-8154-86fbe7f783a7")
-		)
-		(instances
-			(project ""
-				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "rsx_Capacitors:1u")
 		(at 427.99 64.77 0)
 		(unit 1)
@@ -12138,6 +13459,101 @@
 		)
 	)
 	(symbol
+		(lib_id "rsx_LEDs:LED_G")
+		(at 308.61 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1626df1d-4d6c-4a93-9bd2-a985ce38013a")
+		(property "Reference" "D4"
+			(at 310.1975 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_G"
+			(at 310.1975 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 308.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN CLEAR SMD"
+			(at 308.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Lite-On Inc."
+			(at 308.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "160-1179-1-ND"
+			(at 308.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 308.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58fdc581-d11e-499f-a899-a8cefed11c66")
+		)
+		(pin "1"
+			(uuid "cb6d3cfa-03c4-442e-9f1b-f9a51fa35308")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 501.65 110.49 0)
 		(unit 1)
@@ -12198,6 +13614,103 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:330R")
+		(at 175.26 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1957f631-674d-48fd-934d-26e818734d11")
+		(property "Reference" "R16"
+			(at 177.8 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 177.8 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 173.482 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20c8d32-4d62-475c-9c2a-67d76cfef8b2")
+		)
+		(pin "1"
+			(uuid "8e476d8a-1024-4d07-a1c0-5820a7cc7686")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12557,6 +14070,103 @@
 		)
 	)
 	(symbol
+		(lib_id "rsx_header_screw:Screw_Terminal_2x2.54")
+		(at 294.64 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2659490b-4be3-4d3c-985b-fd2eb7b4d72f")
+		(property "Reference" "J5"
+			(at 297.18 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_2x2.54"
+			(at 294.64 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "rsx_headers_screw:Wurth_691210910002"
+			(at 294.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TERM BLOCK 2P HORIZON 2.54MM PCB"
+			(at 294.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Würth Elektronik"
+			(at 294.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-691210910002-ND"
+			(at 294.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "691210910002"
+			(at 294.64 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "597ee2d0-86ce-452b-9022-d00cfcb8944d")
+		)
+		(pin "1"
+			(uuid "d0321524-61c6-4fe9-aa6e-16e9d90b6f39")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Resistors:1K")
 		(at 546.1 50.8 90)
 		(unit 1)
@@ -12646,109 +14256,6 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Transistors:2N7002K")
-		(at 527.05 297.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dd12557-3c2b-4818-89b0-8fab06fec144")
-		(property "Reference" "Q4"
-			(at 533.4 295.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 533.4 298.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
-			(at 532.13 299.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 527.05 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-CH 60V 300MA SOT23-3"
-			(at 527.05 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Vishay Siliconix"
-			(at 527.05 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "742-2N7002K-T1-E3CT-ND"
-			(at 527.05 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2N7002K-T1-E3"
-			(at 527.05 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d8c76c82-e9f7-4e86-8ba5-956f70a60ffa")
-		)
-		(pin "2"
-			(uuid "3a54895f-b4ae-409e-b1b8-75ccd1bd0193")
-		)
-		(pin "1"
-			(uuid "70c4b1f4-dfff-4ceb-9f83-a1abdf110501")
-		)
-		(instances
-			(project "MCU"
-				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -13110,6 +14617,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 459.74 251.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38987701-4e7f-40e7-b549-44d9a74b8cff")
+		(property "Reference" "#PWR047"
+			(at 455.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 463.55 251.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 459.74 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 459.74 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 459.74 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef7a2d0b-aa8b-4bd0-8623-465277f2ebaf")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Capacitors:1u")
 		(at 532.13 86.36 0)
 		(unit 1)
@@ -13207,6 +14781,124 @@
 		)
 	)
 	(symbol
+		(lib_id "rsx_Transistors:RXH090N03")
+		(at 527.05 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d35ffcc-3ea9-4ed6-bbdd-59ce0a58d672")
+		(property "Reference" "Q4"
+			(at 533.4 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RXH090N03"
+			(at 533.4 298.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+			(at 532.13 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf"
+			(at 527.05 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4V DRIVE NCH MOSFET: MOSFETS ARE"
+			(at 527.05 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Rohm Semiconductor"
+			(at 527.05 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "846-RXH090N03TB1CT-ND"
+			(at 527.05 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RXH090N03TB1"
+			(at 527.05 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3dc16930-c6f5-42fc-a360-e4ed073fdef8")
+		)
+		(pin "8"
+			(uuid "221b814f-c99a-4825-b149-3cf0d05e6e79")
+		)
+		(pin "5"
+			(uuid "fefdf057-d6c9-4ab1-86f6-656206424feb")
+		)
+		(pin "1"
+			(uuid "53abf6f6-24ff-4aee-9722-ff5662245012")
+		)
+		(pin "4"
+			(uuid "dc463984-09d6-4c22-99f1-3557ca2e4f06")
+		)
+		(pin "2"
+			(uuid "e872ea17-417b-4409-9ce6-ce215b2012fb")
+		)
+		(pin "3"
+			(uuid "cc33d781-b5a9-4eba-8cfd-75a69f89e1bd")
+		)
+		(pin "7"
+			(uuid "c424e169-7aa5-48eb-851e-b95e03fbcb94")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 414.02 62.23 0)
 		(unit 1)
@@ -13267,6 +14959,106 @@
 			(project ""
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_sensors:MCP9700A-E/TO")
+		(at 331.47 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e3063f5-c7df-4350-8be6-2e70ce6a73c1")
+		(property "Reference" "U12"
+			(at 332.7401 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "-40C-125C"
+			(at 330.2001 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
+			(at 319.278 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"
+			(at 356.616 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR ANALOG -40C-125C TO92-3"
+			(at 314.198 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Microchip Technology"
+			(at 320.04 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "MCP9700A-E/TO-ND"
+			(at 324.104 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP9700A-E/TO"
+			(at 337.058 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d75fd34-97df-4101-b66b-9812b3c03f48")
+		)
+		(pin "1"
+			(uuid "ad4b2e28-7051-47da-a3fb-baf2a5f2423d")
+		)
+		(pin "3"
+			(uuid "93fe0350-dcab-4dd6-9892-35038bae1c10")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -13737,6 +15529,235 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 538.48 290.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "439f0b14-27a2-4e75-9ce0-197c1a4ceb07")
+		(property "Reference" "#PWR049"
+			(at 534.67 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 542.29 290.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 538.48 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 538.48 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 538.48 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02cf30f8-ead0-4688-9c25-dbea6cc68f75")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:100R")
+		(at 120.65 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44fd8942-b597-4032-99d0-cc6c86ba5c38")
+		(property "Reference" "R37"
+			(at 120.65 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 120.65 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 120.65 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100R"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c995905a-33a8-4af5-bdad-3189c42b0c03")
+		)
+		(pin "1"
+			(uuid "3fd6d9ba-e199-444f-9be6-dce5b1bc4c47")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c637c6-02e6-43e6-80f0-2ffd6eb0fdcd")
+		(property "Reference" "#PWR040"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4001 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7280fd6-48f3-4464-b06e-e685d283433f")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Capacitors:1u")
 		(at 516.89 60.96 0)
 		(unit 1)
@@ -13828,6 +15849,103 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:330R")
+		(at 175.26 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d5829b3-b7d7-4db6-a96c-00dd1683646b")
+		(property "Reference" "R18"
+			(at 177.8 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 177.8 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 173.482 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 175.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 175.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 175.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 175.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e2b2866-9b33-4033-bb18-9975804027fe")
+		)
+		(pin "1"
+			(uuid "c6891735-843f-4e28-998d-f936c95539d4")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13947,56 +16065,17 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:2N7002K")
-		(at 453.39 298.45 0)
+		(lib_id "power:+12V")
+		(at 261.62 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e36e110-0f54-41d2-9ee2-7e0248c66394")
-		(property "Reference" "Q5"
-			(at 459.74 297.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 459.74 299.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
-			(at 458.47 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 453.39 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-CH 60V 300MA SOT23-3"
-			(at 453.39 298.45 0)
+		(uuid "55279ef8-6b7f-4085-b7a4-9d9a6e27920b")
+		(property "Reference" "#PWR044"
+			(at 261.62 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14004,8 +16083,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Vishay Siliconix"
-			(at 453.39 298.45 0)
+		(property "Value" "+12V"
+			(at 261.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,8 +16100,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "742-2N7002K-T1-E3CT-ND"
-			(at 453.39 298.45 0)
+		(property "Datasheet" ""
+			(at 261.62 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14022,28 +16109,386 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "2N7002K-T1-E3"
-			(at 453.39 298.45 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 261.62 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "fe7fdd6d-bb86-4d7c-8596-9a858a4f2809")
-		)
-		(pin "2"
-			(uuid "32304266-6135-4cf7-bfad-e0b3126f271a")
 		)
 		(pin "1"
-			(uuid "e9aeb18f-8202-4c34-89a2-1d054ec9af75")
+			(uuid "705cf66b-2da5-446a-8d86-5d096b3c2adb")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_HID:Button")
+		(at 320.04 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "582c89dc-f6ea-485a-bf64-d69a21c68928")
+		(property "Reference" "SW1"
+			(at 320.04 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Button"
+			(at 320.04 228.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "rsx_HID:FSMSMTR"
+			(at 320.04 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+			(at 320.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TE Connectivity ALCOSWITCH Switches"
+			(at 320.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "450-1758-1-ND"
+			(at 320.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FSMSMTR"
+			(at 320.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0be40d9-67f2-48a4-946a-40f5ec67f2c8")
+		)
+		(pin "1"
+			(uuid "6b588173-85ed-4722-93da-6f10c1f4f59f")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Relays:G5LE-1_12V")
+		(at 276.86 208.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d413246-73f1-4e12-b2d0-53d07287e75b")
+		(property "Reference" "K1"
+			(at 276.86 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G5LE-1_12V"
+			(at 276.86 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_relays:Relay_SPDT_Omron-G5LE-1"
+			(at 275.59 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf"
+			(at 276.86 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RELAY GEN PURPOSE SPDT 10A 12V"
+			(at 276.86 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Omron Electronics Inc-EMC Div"
+			(at 276.86 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "Z12700-ND"
+			(at 276.86 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "G5LE-14-36 DC12"
+			(at 276.86 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c0c9729f-6841-46e0-b9dd-582244574abc")
+		)
+		(pin "4"
+			(uuid "d492f307-8b2b-4592-87f0-e690b2714f66")
+		)
+		(pin "3"
+			(uuid "82ab86c8-a0f1-44b6-aca6-0a1fce4a1a70")
+		)
+		(pin "2"
+			(uuid "fec5c870-b2c9-4a44-90fc-b5fe8cdbd1ff")
+		)
+		(pin "1"
+			(uuid "aff8e96a-d084-4cf2-876e-cd09c94f7b38")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 429.26 321.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e255772-5692-43f1-beeb-6566f6ba9bb9")
+		(property "Reference" "#PWR038"
+			(at 429.26 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 429.26 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 429.26 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d3cefe-b698-492c-92c1-ccb60979224d")
 		)
 		(instances
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "Q5")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_LEDs:LED_B")
+		(at 175.26 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "629a985b-f419-470d-b26e-07d083b9acfe")
+		(property "Reference" "D9"
+			(at 179.07 165.4174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 179.07 167.9574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR SMD"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Lite-On Inc."
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "160-1579-1-ND"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170TBKT"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fae08f8d-9d5d-49aa-80f3-4c6a732ace05")
+		)
+		(pin "1"
+			(uuid "70af1619-6ee5-4b49-888e-ae89912e7904")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -14141,6 +16586,140 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 464.82 292.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63ec1ff5-8529-4ece-9389-b7a05b431244")
+		(property "Reference" "#PWR048"
+			(at 461.01 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 468.63 292.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 464.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 464.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d41dc7ce-9c33-45b4-8e1e-a10fdd5a1389")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65813d79-cba5-432b-ba24-61f4129c49ed")
+		(property "Reference" "#PWR041"
+			(at 330.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2001 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8b05656-dd71-45f6-ad87-cc1322882b8a")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14597,6 +17176,124 @@
 		)
 	)
 	(symbol
+		(lib_id "rsx_Transistors:RXH090N03")
+		(at 453.39 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e3fff78-c3bf-46de-9b60-6f7b220f9078")
+		(property "Reference" "Q1"
+			(at 459.74 297.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RXH090N03"
+			(at 459.74 299.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+			(at 458.47 300.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf"
+			(at 453.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4V DRIVE NCH MOSFET: MOSFETS ARE"
+			(at 453.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Rohm Semiconductor"
+			(at 453.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "846-RXH090N03TB1CT-ND"
+			(at 453.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RXH090N03TB1"
+			(at 453.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6713b8e6-90d8-45ab-9695-493f2398b08a")
+		)
+		(pin "8"
+			(uuid "977dc9e6-c3e6-4a14-b397-327c02974589")
+		)
+		(pin "5"
+			(uuid "012058e1-3444-4c9d-915e-b0ba4d253548")
+		)
+		(pin "1"
+			(uuid "2511b52e-80b1-4641-a42f-24a8188a1321")
+		)
+		(pin "4"
+			(uuid "e27b7f6d-48e7-4213-9b32-da1257e9bd8b")
+		)
+		(pin "2"
+			(uuid "9a2c6857-5535-423f-9c79-921381f36a0c")
+		)
+		(pin "3"
+			(uuid "d0f0314e-03e4-41fc-a873-21a077d4a90a")
+		)
+		(pin "7"
+			(uuid "882e34da-3464-4c88-955e-d36010c43c19")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Resistors:24K")
 		(at 502.92 151.13 0)
 		(unit 1)
@@ -14694,6 +17391,191 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 537.21 254 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "737d03da-dabb-4f4f-aeda-a83acac156e6")
+		(property "Reference" "#PWR050"
+			(at 533.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 541.02 253.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 537.21 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 537.21 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 537.21 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b31255e-450b-4c1b-aed6-3daebd1c3381")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Transistors:RXH090N03")
+		(at 525.78 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76afda36-1245-4006-b87b-bf627ac45744")
+		(property "Reference" "Q3"
+			(at 532.13 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RXH090N03"
+			(at 532.13 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+			(at 530.86 262.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf"
+			(at 525.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4V DRIVE NCH MOSFET: MOSFETS ARE"
+			(at 525.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Rohm Semiconductor"
+			(at 525.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "846-RXH090N03TB1CT-ND"
+			(at 525.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RXH090N03TB1"
+			(at 525.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7efbdf15-54a2-49c7-be9a-657d15f030ac")
+		)
+		(pin "8"
+			(uuid "a4cfc228-0f11-4d6d-b99b-eb85af366f62")
+		)
+		(pin "5"
+			(uuid "4b399aa0-ca5e-4f58-8ed3-b16b9029d8fc")
+		)
+		(pin "1"
+			(uuid "b2f27e63-41e1-4112-bd1b-972fda449dea")
+		)
+		(pin "4"
+			(uuid "ebc2dd1d-b4e2-4265-8cb3-665d352e2a7e")
+		)
+		(pin "2"
+			(uuid "a4f5d6d5-9f11-45d8-9aa6-02d720950628")
+		)
+		(pin "3"
+			(uuid "be87fac4-0322-4f81-9b69-43f92251b83a")
+		)
+		(pin "7"
+			(uuid "b1773806-a266-4f67-94f5-9d74cb51ec72")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Resistors:47K")
 		(at 414.02 36.83 0)
 		(unit 1)
@@ -14785,6 +17667,72 @@
 			(project ""
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 504.19 320.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7afcd92b-2260-4fb8-840d-ef1005b45bc9")
+		(property "Reference" "#PWR039"
+			(at 504.19 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 504.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 504.19 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504.19 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 504.19 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20da40e1-f8a6-4409-8265-70e075153bbb")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15389,6 +18337,103 @@
 		)
 	)
 	(symbol
+		(lib_id "rsx_LEDs:LED_G")
+		(at 425.45 273.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5610c9-dc75-42f9-bea3-d81d2bfd7f4e")
+		(property "Reference" "D10"
+			(at 429.26 273.3674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_G"
+			(at 429.26 275.9074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 425.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN CLEAR SMD"
+			(at 425.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Lite-On Inc."
+			(at 425.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "160-1179-1-ND"
+			(at 425.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 425.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "950cdb78-caf6-45bd-9f20-73147dbac39b")
+		)
+		(pin "1"
+			(uuid "ed987634-d42a-4dc4-8a27-16689e2d681c")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Capacitors:0u1")
 		(at 509.27 223.52 0)
 		(unit 1)
@@ -15486,25 +18531,25 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:330R")
-		(at 429.26 158.75 90)
+		(lib_id "rsx_Resistors:100R")
+		(at 158.75 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f0eccfe-7816-425b-82b8-771a5f5f3f33")
-		(property "Reference" "R22"
-			(at 429.26 152.4 90)
+		(uuid "8e1438f6-2164-42e9-bde8-4aeddbea5849")
+		(property "Reference" "R32"
+			(at 158.75 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 429.26 154.94 90)
+		(property "Value" "100R"
+			(at 158.75 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15512,7 +18557,7 @@
 			)
 		)
 		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
-			(at 429.26 160.528 90)
+			(at 158.75 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15521,7 +18566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 429.26 158.75 0)
+			(at 158.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15529,8 +18574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 330 OHM 1% 1/10W 0603"
-			(at 429.26 158.75 0)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 158.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +18584,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 429.26 158.75 0)
+			(at 158.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15547,8 +18592,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT330RCT-ND"
-			(at 429.26 158.75 0)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 158.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15556,8 +18601,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT330R"
-			(at 429.26 158.75 0)
+		(property "MPN" "RMCF0603FT100R"
+			(at 158.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15566,48 +18611,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "eeae9e7a-3930-4d74-b617-f1748e09be8f")
+			(uuid "febf8a21-f693-46c0-979e-bb706aa73361")
 		)
 		(pin "1"
-			(uuid "21dcb19b-b1f2-437d-9378-d2c0fd3d863e")
+			(uuid "6ff76c82-ac77-4958-987c-7f1e42b25d0f")
 		)
 		(instances
-			(project ""
+			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R22")
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:200R_2W")
-		(at 429.26 170.18 90)
+		(lib_id "rsx_LEDs:LED_G")
+		(at 502.92 275.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8fdb1e00-8b80-46a1-bc1e-72a0a59d17a9")
-		(property "Reference" "R23"
-			(at 429.26 163.83 90)
+		(uuid "8fcf68f2-0eb3-4708-a190-b7a3fa7496f7")
+		(property "Reference" "D1"
+			(at 506.73 275.9074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "200R_2W"
-			(at 429.26 166.37 90)
+		(property "Value" "LED_G"
+			(at 506.73 278.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
-			(at 429.26 171.958 90)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 502.92 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +18663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 429.26 170.18 0)
+			(at 502.92 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15624,8 +18671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 200 OHM 1% 2W 2512"
-			(at 429.26 170.18 0)
+		(property "Description" "LED GREEN CLEAR SMD"
+			(at 502.92 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,8 +18680,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Bourns Inc."
-			(at 429.26 170.18 0)
+		(property "MFR" "Lite-On Inc."
+			(at 502.92 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15642,8 +18689,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "CRM2512-FX-2000ELFCT-ND"
-			(at 429.26 170.18 0)
+		(property "DPN" "160-1179-1-ND"
+			(at 502.92 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15651,8 +18698,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRM2512-FX-2000ELF"
-			(at 429.26 170.18 0)
+		(property "MPN" "LTST-C170GKT"
+			(at 502.92 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15661,15 +18708,112 @@
 			)
 		)
 		(pin "2"
-			(uuid "8daec96c-4e39-4ff3-949e-fbd94afe1d5e")
+			(uuid "ee92fa97-3cea-4b87-8da3-9b070b560f41")
 		)
 		(pin "1"
-			(uuid "3c1e4543-2044-4c22-b832-073d13dd51e8")
+			(uuid "1d926c2d-e78a-4023-a6cd-ac1aab373294")
 		)
 		(instances
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R23")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_LEDs:LED_B")
+		(at 175.26 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9103f9ad-7eb6-458d-b7df-08fb25d6c1bb")
+		(property "Reference" "D7"
+			(at 179.07 106.9974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 179.07 109.5374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR SMD"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Lite-On Inc."
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "160-1579-1-ND"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170TBKT"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "656c8d09-e3aa-4dc3-8813-be5b0cf16670")
+		)
+		(pin "1"
+			(uuid "4bfa30f3-331f-4ba7-a1b8-64f1951b3d5c")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -15742,33 +18886,33 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_LEDs:LED_G")
-		(at 448.31 147.32 180)
+		(lib_id "rsx_Resistors:100R")
+		(at 120.65 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94e2f910-821c-4021-8af0-9e9efb0f1ab6")
-		(property "Reference" "D2"
-			(at 449.8975 139.7 0)
+		(uuid "93579697-bac6-48d6-8603-97a5ecfb0ab1")
+		(property "Reference" "R38"
+			(at 120.65 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED_G"
-			(at 449.8975 142.24 0)
+		(property "Value" "100R"
+			(at 120.65 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
-			(at 448.31 147.32 0)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 120.65 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,7 +18921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 448.31 147.32 0)
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15785,8 +18929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR SMD"
-			(at 448.31 147.32 0)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15794,8 +18938,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Lite-On Inc."
-			(at 448.31 147.32 0)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15803,8 +18947,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "160-1179-1-ND"
-			(at 448.31 147.32 0)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15812,8 +18956,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C170GKT"
-			(at 448.31 147.32 0)
+		(property "MPN" "RMCF0603FT100R"
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,15 +18966,149 @@
 			)
 		)
 		(pin "2"
-			(uuid "e7c95613-5c18-4386-b36e-cbd59207fe84")
+			(uuid "b3ff4a61-1576-43ec-b07a-10c7e13322f2")
 		)
 		(pin "1"
-			(uuid "99e92396-915b-4bf3-919f-149866e77716")
+			(uuid "aa5b3f62-9400-4cc6-80ce-a0cf7b45f10e")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 325.12 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94d6754f-ef8d-4bcc-b83c-f56ac0526509")
+		(property "Reference" "#PWR046"
+			(at 331.47 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 227.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b35f591e-7692-4f9f-8b8d-c8913f0eec3e")
 		)
 		(instances
 			(project ""
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "D2")
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 331.47 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98728b54-87af-4547-8e70-4045f31e6faa")
+		(property "Reference" "#PWR043"
+			(at 331.47 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.4701 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7c2ee28-2a67-4f22-afef-b38e7c621fea")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16000,101 +19278,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:0R100 1/2W")
-		(at 181.61 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99e03533-1344-48cd-8376-e077382e6a7b")
-		(property "Reference" "R18"
-			(at 181.61 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R100 1/2W"
-			(at 181.61 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_1206_3216Metric"
-			(at 181.61 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.1 OHM 1% 1/2W 1206"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "CSR1206FTR100CT-ND"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSR1206FTR100"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d502f297-2ef1-47bd-ab1c-236b5da41637")
-		)
-		(pin "2"
-			(uuid "e71738c0-2e4f-4238-9771-317ee5c3debe")
-		)
-		(instances
-			(project "MCU"
-				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 516.89 176.53 0)
 		(unit 1)
@@ -16221,6 +19404,103 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_LEDs:LED_B")
+		(at 175.26 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e277a8d-e952-47f1-b58e-9c9009552f8d")
+		(property "Reference" "D6"
+			(at 179.07 79.0574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 179.07 81.5974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR SMD"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Lite-On Inc."
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "160-1579-1-ND"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170TBKT"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d53012dd-aeff-4d9a-b302-0e01738d0f73")
+		)
+		(pin "1"
+			(uuid "25fac417-fd9e-4a0b-afe2-6db1ef8e62ee")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16649,6 +19929,297 @@
 			(project ""
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:330R")
+		(at 175.26 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a24fe01c-1e3a-4748-86a5-42d2b465d0a8")
+		(property "Reference" "R17"
+			(at 177.8 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 177.8 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 173.482 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bc2de84-8625-4cce-8bf1-edeede7edacc")
+		)
+		(pin "1"
+			(uuid "1f2fa587-5877-433c-ab7a-074d8eefcc43")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:330R")
+		(at 175.26 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a47548ff-ea71-4182-80ea-78e0a949cabd")
+		(property "Reference" "R30"
+			(at 177.8 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 177.8 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 173.482 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa8ea3dc-092a-44c0-b941-1869a53372dc")
+		)
+		(pin "1"
+			(uuid "ae1abeed-be60-4398-b589-d299df453a9a")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_LEDs:LED_G")
+		(at 429.26 313.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a54af27c-7a99-4aca-ab43-ac1729bf46fe")
+		(property "Reference" "D2"
+			(at 433.07 314.0074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_G"
+			(at 433.07 316.5474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 429.26 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 429.26 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN CLEAR SMD"
+			(at 429.26 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Lite-On Inc."
+			(at 429.26 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "160-1179-1-ND"
+			(at 429.26 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 429.26 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5e02b03-f8f4-4bef-99b1-bd4789789b33")
+		)
+		(pin "1"
+			(uuid "e75f93bd-2a42-4415-ad85-743f63ce2abb")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17379,6 +20950,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa3597cc-1ea0-4f0a-a23d-1e618a2b2171")
+		(property "Reference" "#PWR033"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "871b69f4-687d-404c-a3c9-3608a33af9ab")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Capacitors:1u")
 		(at 444.5 35.56 0)
 		(unit 1)
@@ -17470,6 +21107,73 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac7885c3-e8b2-41d9-8df8-65dc8bca6493")
+		(property "Reference" "#PWR042"
+			(at 280.67 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.6701 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f0f602-ae44-4022-aa70-de2ae36f8a7e")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17602,6 +21306,101 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:100R")
+		(at 165.1 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c0d3a6-7d3e-44ed-ad6b-be3662f92c13")
+		(property "Reference" "R33"
+			(at 165.1 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 165.1 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 165.1 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100R"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dcaebe0-6440-4a36-9b11-0caf88b07530")
+		)
+		(pin "1"
+			(uuid "f9d3737e-88cf-42dc-b4de-1981b395a7ed")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -17774,6 +21573,201 @@
 			(project ""
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_sensors:MCP9700A-E/TO")
+		(at 280.67 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1fd97d6-0ed3-48cc-8f35-2e95249e641c")
+		(property "Reference" "U11"
+			(at 281.9401 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "-40C-125C"
+			(at 279.4001 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
+			(at 268.478 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"
+			(at 305.816 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR ANALOG -40C-125C TO92-3"
+			(at 263.398 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Microchip Technology"
+			(at 269.24 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "MCP9700A-E/TO-ND"
+			(at 273.304 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP9700A-E/TO"
+			(at 286.258 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eec7381a-bcbe-49be-acb7-f08d1db78773")
+		)
+		(pin "1"
+			(uuid "7af174cb-f4b4-4456-b368-8fe0ce0f6215")
+		)
+		(pin "3"
+			(uuid "7ef24742-c9d4-4f9a-a8cb-139a739f0859")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:100R")
+		(at 160.02 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b521222d-3f2c-4d6e-b7c1-11efc2a8719e")
+		(property "Reference" "R31"
+			(at 160.02 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 160.02 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 160.02 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100R"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8866fce-bce1-4b91-8ed0-d2e6e90f090d")
+		)
+		(pin "1"
+			(uuid "b1a75ba5-9594-4fd1-bffa-6aee89693f7d")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17968,6 +21962,169 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc24533c-e691-45d7-8308-b416dee46136")
+		(property "Reference" "#PWR035"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b922351b-ae2c-4aae-9145-a3edb7f84780")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_LEDs:LED_B")
+		(at 175.26 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc9ab593-b0f4-487f-94c8-cd30829a5750")
+		(property "Reference" "D8"
+			(at 179.07 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 179.07 140.0174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR SMD"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Lite-On Inc."
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "160-1579-1-ND"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170TBKT"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2efdd6fe-50d7-44d2-ba6c-6dd79fa3af37")
+		)
+		(pin "1"
+			(uuid "bee61d2a-d738-4584-a61d-8d9ac10e127a")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -18537,128 +22694,35 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:0R100 1/2W")
-		(at 181.61 92.71 90)
+		(lib_id "rsx_LEDs:LED_G")
+		(at 504.19 312.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c84c2cac-310e-42da-a190-46e79a85b286")
-		(property "Reference" "R16"
-			(at 181.61 86.36 90)
+		(uuid "c70c5f2d-96bd-464d-a980-907592f4bdff")
+		(property "Reference" "D3"
+			(at 508 312.7374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0R100 1/2W"
-			(at 181.61 88.9 90)
+		(property "Value" "LED_G"
+			(at 508 315.2774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_1206_3216Metric"
-			(at 181.61 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.1 OHM 1% 1/2W 1206"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "CSR1206FTR100CT-ND"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSR1206FTR100"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ae81666-204e-4adc-b838-2c39be3c9a29")
-		)
-		(pin "2"
-			(uuid "eb7cf004-e8e5-4788-bd65-62b0fd048d4c")
-		)
-		(instances
-			(project ""
-				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_LEDs:LED_Y")
-		(at 448.31 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d02324c0-9315-4360-b685-754951e34b84")
-		(property "Reference" "D4"
-			(at 449.8975 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Y"
-			(at 449.8975 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
-			(at 448.31 170.18 0)
+			(at 504.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18667,7 +22731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 448.31 170.18 0)
+			(at 504.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18675,8 +22739,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED YELLOW CLEAR SMD"
-			(at 448.31 170.18 0)
+		(property "Description" "LED GREEN CLEAR SMD"
+			(at 504.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18685,7 +22749,7 @@
 			)
 		)
 		(property "MFR" "Lite-On Inc."
-			(at 448.31 170.18 0)
+			(at 504.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18693,8 +22757,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "160-1175-1-ND"
-			(at 448.31 170.18 0)
+		(property "DPN" "160-1179-1-ND"
+			(at 504.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18702,8 +22766,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C170YKT"
-			(at 448.31 170.18 0)
+		(property "MPN" "LTST-C170GKT"
+			(at 504.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18712,15 +22776,330 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbf0edf4-f5b2-493e-8980-de501100ed1b")
+			(uuid "99b505f7-fae2-40b8-be3e-c8d702721b0a")
 		)
 		(pin "1"
-			(uuid "b185c3dc-4665-4eb5-a1ac-8cb1339a815b")
+			(uuid "30aac51b-fba6-4d05-bc8e-7ce8d62d848d")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:330R")
+		(at 504.19 304.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c88137e1-a174-4535-8da8-4f62b0c8514b")
+		(property "Reference" "R22"
+			(at 506.73 303.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 506.73 306.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 502.412 304.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 504.19 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 504.19 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 504.19 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 504.19 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 504.19 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4374e0eb-1430-4db4-99fe-0307ce8831d7")
+		)
+		(pin "1"
+			(uuid "7b5d142a-c94c-40b5-b73d-1f634dd19c0a")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_sensors:MCP9700A-E/TO")
+		(at 279.4 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccb6cd6f-1c8f-4268-a21e-9c8690068101")
+		(property "Reference" "U9"
+			(at 280.6701 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "-40C-125C"
+			(at 278.1301 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
+			(at 267.208 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"
+			(at 304.546 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR ANALOG -40C-125C TO92-3"
+			(at 262.128 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Microchip Technology"
+			(at 267.97 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "MCP9700A-E/TO-ND"
+			(at 272.034 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP9700A-E/TO"
+			(at 284.988 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98b39fbe-e93c-43c5-b331-9805cd156982")
+		)
+		(pin "1"
+			(uuid "42aabd60-0d62-44bc-8386-df9194156228")
+		)
+		(pin "3"
+			(uuid "1b851ee9-79fb-4ef5-b695-59760d8c072f")
 		)
 		(instances
 			(project ""
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "D4")
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Transistors:RXH090N03")
+		(at 448.31 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08b7637-0969-43e7-975d-ebf4291781ae")
+		(property "Reference" "Q6"
+			(at 454.66 256.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RXH090N03"
+			(at 454.66 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_packages_SO:SOIC-8_3.9x4.9mm_P1.27mm_DL"
+			(at 453.39 259.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf"
+			(at 448.31 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4V DRIVE NCH MOSFET: MOSFETS ARE"
+			(at 448.31 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Rohm Semiconductor"
+			(at 448.31 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "846-RXH090N03TB1CT-ND"
+			(at 448.31 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RXH090N03TB1"
+			(at 448.31 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1baecff2-80b8-474b-b9eb-457f3e333eae")
+		)
+		(pin "8"
+			(uuid "f402122e-76be-493a-8b6b-1f230767adc1")
+		)
+		(pin "5"
+			(uuid "85c347f3-8cd6-4bbb-ad6b-0e6f520fea0c")
+		)
+		(pin "1"
+			(uuid "ad09b74b-b86b-4d97-9e1d-b4826775b5e2")
+		)
+		(pin "4"
+			(uuid "9de65707-5721-4107-970e-5f721ce97a50")
+		)
+		(pin "2"
+			(uuid "962689fb-c345-4d82-bbe1-77303cde10d7")
+		)
+		(pin "3"
+			(uuid "23a91e61-ac1b-4dfe-804f-8021291394c8")
+		)
+		(pin "7"
+			(uuid "ccc16fcf-decf-40b4-82f7-eab4cde2a8d6")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -18937,101 +23316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:0R100 1/2W")
-		(at 181.61 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d73c95d4-4c18-4948-a811-ed0637d82bfb")
-		(property "Reference" "R17"
-			(at 181.61 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R100 1/2W"
-			(at 181.61 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_1206_3216Metric"
-			(at 181.61 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.1 OHM 1% 1/2W 1206"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "CSR1206FTR100CT-ND"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSR1206FTR100"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f97bddb-e807-4fd5-bd61-59028b8b20bf")
-		)
-		(pin "2"
-			(uuid "120ce419-ef6c-4ce5-8f4f-ac7726598239")
-		)
-		(instances
-			(project "MCU"
-				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "rsx_Capacitors:1u")
 		(at 427.99 110.49 0)
 		(unit 1)
@@ -19195,33 +23479,35 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:200R_2W")
-		(at 429.26 147.32 90)
+		(lib_id "rsx_Resistors:330R")
+		(at 502.92 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd7fc775-0e0c-4c4c-9964-5fa452573492")
-		(property "Reference" "R21"
-			(at 429.26 140.97 90)
+		(uuid "dc1d4175-f618-46aa-b1bb-a768ce785351")
+		(property "Reference" "R19"
+			(at 505.46 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "200R_2W"
-			(at 429.26 143.51 90)
+		(property "Value" "330R"
+			(at 505.46 269.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
-			(at 429.26 149.098 90)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 501.142 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19230,7 +23516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 429.26 147.32 0)
+			(at 502.92 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19238,8 +23524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 200 OHM 1% 2W 2512"
-			(at 429.26 147.32 0)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 502.92 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19247,8 +23533,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Bourns Inc."
-			(at 429.26 147.32 0)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 502.92 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19256,8 +23542,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "CRM2512-FX-2000ELFCT-ND"
-			(at 429.26 147.32 0)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 502.92 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19265,8 +23551,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRM2512-FX-2000ELF"
-			(at 429.26 147.32 0)
+		(property "MPN" "RMCF0603FT330R"
+			(at 502.92 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19275,15 +23561,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bad5257a-abc7-4921-99a7-ec26a5af3300")
+			(uuid "612fe457-bb4f-4623-88c8-89d4859ac4da")
 		)
 		(pin "1"
-			(uuid "8bcf93e4-a5bd-4102-a118-4dbc7b1e0073")
+			(uuid "97d0516c-8d57-411c-9046-287fe37a67cf")
 		)
 		(instances
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -19356,112 +23642,17 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_LEDs:LED_R")
-		(at 448.31 158.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1be1b42-b157-484f-86af-1a988b9df04f")
-		(property "Reference" "D3"
-			(at 449.8975 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_R"
-			(at 449.8975 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
-			(at 448.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 448.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED RED CLEAR SMD"
-			(at 448.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Lite-On Inc."
-			(at 448.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "160-1178-1-ND"
-			(at 448.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LTST-C170EKT"
-			(at 448.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b35e1cf-3582-4e0c-be27-e6de91cb950d")
-		)
-		(pin "1"
-			(uuid "b1636997-c3be-4802-a137-d04a359dacb8")
-		)
-		(instances
-			(project ""
-				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 472.44 173.99 0)
+		(at 502.92 283.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e60ad243-20ee-42ef-91f3-4655958ea108")
+		(uuid "e51e424c-fd65-435f-a670-dce29bae67a1")
 		(property "Reference" "#PWR022"
-			(at 472.44 180.34 0)
+			(at 502.92 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19470,7 +23661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 472.44 179.07 0)
+			(at 502.92 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19478,7 +23669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 472.44 173.99 0)
+			(at 502.92 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19487,7 +23678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 472.44 173.99 0)
+			(at 502.92 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19496,7 +23687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 472.44 173.99 0)
+			(at 502.92 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19505,10 +23696,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "035abb54-99ca-4624-ac76-ace96c6c4136")
+			(uuid "63b5d95e-60b6-43ee-8dfa-6439bd938225")
 		)
 		(instances
-			(project ""
+			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "#PWR022")
 					(unit 1)
@@ -19517,33 +23708,33 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_LEDs:LED_B")
-		(at 448.31 135.89 180)
+		(lib_id "rsx_Resistors:100R")
+		(at 128.27 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e63e73b2-5ad7-461c-b959-26b0c12437a4")
-		(property "Reference" "D1"
-			(at 449.8975 128.27 0)
+		(uuid "e5710aa7-3b0d-4477-b4bd-61f1348be10d")
+		(property "Reference" "R35"
+			(at 128.27 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED_B"
-			(at 449.8975 130.81 0)
+		(property "Value" "100R"
+			(at 128.27 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "rsx_leds:LED_0805_2012Metric"
-			(at 448.31 135.89 0)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 128.27 216.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19552,7 +23743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 448.31 135.89 0)
+			(at 128.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19560,8 +23751,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED BLUE CLEAR SMD"
-			(at 448.31 135.89 0)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 128.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19569,8 +23760,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Lite-On Inc."
-			(at 448.31 135.89 0)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 128.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19578,8 +23769,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "160-1579-1-ND"
-			(at 448.31 135.89 0)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 128.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19587,8 +23778,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C170TBKT"
-			(at 448.31 135.89 0)
+		(property "MPN" "RMCF0603FT100R"
+			(at 128.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19597,15 +23788,310 @@
 			)
 		)
 		(pin "2"
-			(uuid "089d402f-2eec-4e8a-8bd6-80c7bea2d03a")
+			(uuid "d47cd30a-7ed6-4e6e-8c94-225ec5142c0d")
 		)
 		(pin "1"
-			(uuid "b2be5742-a5c2-424e-9ec2-b05081517453")
+			(uuid "e042e57c-d88d-4f95-bfd9-412b2f1eaae4")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Transistors:2N7002K")
+		(at 316.23 201.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6a80398-9992-4b00-9f48-6da645d1bdfc")
+		(property "Reference" "Q7"
+			(at 309.88 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002K"
+			(at 309.88 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
+			(at 311.15 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 316.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 300MA SOT23-3"
+			(at 316.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Siliconix"
+			(at 316.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "742-2N7002K-T1-E3CT-ND"
+			(at 316.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002K-T1-E3"
+			(at 316.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2ce4f42b-5cce-4fa0-9213-c3ea88e1ddbe")
+		)
+		(pin "2"
+			(uuid "d8e406b6-9ca8-465a-85ea-f8556cf2975c")
+		)
+		(pin "1"
+			(uuid "a09d3d75-ee48-44c2-90e7-58823a63417b")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:330R")
+		(at 298.45 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a8f48f-181d-409c-a278-0b9846ce3ee9")
+		(property "Reference" "R23"
+			(at 300.99 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 300.99 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 296.672 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 298.45 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 298.45 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 298.45 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 298.45 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35db92d3-9000-400e-a344-c0d8f3314ceb")
+		)
+		(pin "2"
+			(uuid "01b0c5ce-e594-45ae-8289-2e8010f8af9d")
 		)
 		(instances
 			(project ""
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "D1")
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:100R")
+		(at 128.27 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eac04d60-6b9e-473b-900e-c8dfdd644d27")
+		(property "Reference" "R36"
+			(at 128.27 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 128.27 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 128.27 229.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(at 128.27 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 128.27 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 128.27 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100R"
+			(at 128.27 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0cce51f-a050-427d-b102-bface8c20070")
+		)
+		(pin "1"
+			(uuid "be5a2b47-f1eb-451a-842f-0368e7a1095a")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -19775,17 +24261,17 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:2N7002K")
-		(at 525.78 260.35 0)
+		(lib_id "rsx_Resistors:330R")
+		(at 429.26 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef5be2d6-05d6-4990-af38-17a6f8dfbe3e")
-		(property "Reference" "Q3"
-			(at 532.13 259.0799 0)
+		(uuid "f0f54825-0618-470a-92a3-ab5799c68811")
+		(property "Reference" "R21"
+			(at 431.8 304.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19793,8 +24279,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
-			(at 532.13 261.6199 0)
+		(property "Value" "330R"
+			(at 431.8 307.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19802,29 +24288,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
-			(at 530.86 262.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 525.78 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-CH 60V 300MA SOT23-3"
-			(at 525.78 260.35 0)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 427.482 306.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19832,8 +24297,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Vishay Siliconix"
-			(at 525.78 260.35 0)
+		(property "Datasheet" "~"
+			(at 429.26 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19841,8 +24306,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "742-2N7002K-T1-E3CT-ND"
-			(at 525.78 260.35 0)
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
+			(at 429.26 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19850,8 +24315,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "2N7002K-T1-E3"
-			(at 525.78 260.35 0)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 429.26 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19859,19 +24324,100 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "6c49120a-1027-4ff8-9923-ede31dae0dd0")
+		(property "DPN" "RMCF0603FT330RCT-ND"
+			(at 429.26 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330R"
+			(at 429.26 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "f38266a6-6127-42cd-b00a-f4db4de6a4bb")
+			(uuid "6bb79ed4-17bc-438c-ae5d-a1503ffe08e5")
 		)
 		(pin "1"
-			(uuid "2f48ef74-6cc5-4246-a20e-30dc9add5a82")
+			(uuid "fe3b204e-8db6-41a6-a618-805fa4ee644c")
 		)
 		(instances
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "Q3")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 313.69 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1dc3635-b86c-4472-9590-1a60f2153d77")
+		(property "Reference" "#PWR045"
+			(at 313.69 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 313.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6a67810-bf1f-49fb-8106-4b57346fd467")
+		)
+		(instances
+			(project ""
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -20088,42 +24634,35 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:200R_2W")
-		(at 429.26 135.89 90)
+		(lib_id "rsx_sensors:MCP9700A-E/TO")
+		(at 330.2 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f610f23b-92cd-4ed9-831a-0d2fd16a85f0")
-		(property "Reference" "R20"
-			(at 429.26 129.54 90)
+		(uuid "f5bdc214-86ab-48a7-9de5-f14d3f9945fb")
+		(property "Reference" "U10"
+			(at 331.4701 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "200R_2W"
-			(at 429.26 132.08 90)
+		(property "Value" "-40C-125C"
+			(at 328.9301 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_2512_6332Metric"
-			(at 429.26 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 429.26 135.89 0)
+		(property "Footprint" "rsx_packages_TO_SOT:SOT-23"
+			(at 318.008 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20131,8 +24670,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 200 OHM 1% 2W 2512"
-			(at 429.26 135.89 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"
+			(at 355.346 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20140,8 +24679,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Bourns Inc."
-			(at 429.26 135.89 0)
+		(property "Description" "SENSOR ANALOG -40C-125C TO92-3"
+			(at 312.928 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20149,8 +24688,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "CRM2512-FX-2000ELFCT-ND"
-			(at 429.26 135.89 0)
+		(property "MFR" "Microchip Technology"
+			(at 318.77 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20158,8 +24697,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRM2512-FX-2000ELF"
-			(at 429.26 135.89 0)
+		(property "DPN" "MCP9700A-E/TO-ND"
+			(at 322.834 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP9700A-E/TO"
+			(at 335.788 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20168,15 +24716,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "40410d96-0f86-41b6-aa34-be051bf17b7b")
+			(uuid "454602fe-cec3-4ede-8428-501b631012e7")
 		)
 		(pin "1"
-			(uuid "fc17ec5a-a1f5-4bfb-96ec-492bbc7cae45")
+			(uuid "ce8561e9-20b9-49ea-b655-bb44fc5070b2")
+		)
+		(pin "3"
+			(uuid "2f922aad-1f93-45c6-a1ac-6e5440a45989")
 		)
 		(instances
-			(project ""
+			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
-					(reference "R20")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -20338,6 +24889,72 @@
 			(project "MCU"
 				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fccb83ba-c0b7-4cd2-b56e-7deb16734c98")
+		(property "Reference" "#PWR034"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9355d071-db99-44c9-a0b5-b84c8e2a4fe6")
+		)
+		(instances
+			(project "MCU"
+				(path "/1588338c-71b7-419d-94eb-8845356bb7dc"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
