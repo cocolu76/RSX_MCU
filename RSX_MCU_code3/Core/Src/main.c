@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -79,7 +79,9 @@ UART_HandleTypeDef huart3;
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* USER CODE BEGIN PV */
-
+uint16_t adc1_values[4] = {0};
+uint16_t adc2_values[4] = {0};
+uint16_t adc3_values[5] = {0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -100,7 +102,85 @@ static void MX_TIM1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+float Get_Voltage(VoltageSelection v_sel) {
+	float adc_value;
+	switch (v_sel) {
+	case PA3:
+		adc_value = adc1_values[0];
+		break;
+	case PA4:
+		adc_value = adc1_values[1];
+		break;
+	case PA5:
+		adc_value = adc1_values[2];
+		break;
+	case PA6:
+		adc_value = adc1_values[3];
+		break;
+	case PF4:
+		adc_value = adc3_values[0];
+		break;
+	case PF5:
+		adc_value = adc3_values[1];
+		break;
+	case PF7:
+		adc_value = adc3_values[2];
+		break;
+	default:
+		return 1.0 / 0;
+		break;
+	}
+	float vref = 3.3f;
+	float voltage = (adc_value / 4095.0f) * vref;
+	// do some conversion
+	return voltage;
+}
 
+float Get_Current(CurrentSelection I_sel) {
+	float adc_value;
+	switch (I_sel) {
+	case PF9:
+		adc_value = adc3_values[3];
+		break;
+	case PF10:
+		adc_value = adc3_values[4];
+		break;
+	default:
+		return 1.0 / 0;
+		break;
+	}
+	float vref = 3.3f;
+	float current = (adc_value / 4095.0f) * vref;
+	// do some conversion
+	return current;
+}
+
+float Get_Temperature(TemperatureSelection T_sel) {
+	float adc_value;
+	switch (T_sel) {
+	case PA3:
+		adc_value = adc2_values[0];
+		break;
+	case PA4:
+		adc_value = adc2_values[1];
+		break;
+	case PA5:
+		adc_value = adc2_values[2];
+		break;
+	case PA6:
+		adc_value = adc2_values[3];
+		break;
+	default:
+		return 1.0 / 0;
+		break;
+	}
+	float vref = 3.3f;
+	float temperature = (adc_value / 4095.0f) * vref;
+	return temperature;
+}
+bool Enable(DCtoDCSelection DC_sel) {
+	return true;
+}
 /* USER CODE END 0 */
 
 /**
@@ -147,11 +227,26 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc1_values, 4);
+  HAL_ADC_Start_DMA(&hadc2, (uint32_t*)adc2_values, 4);
+  HAL_ADC_Start_DMA(&hadc3, (uint32_t*)adc3_values, 5);
+
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  float voltage = Get_Voltage(PA3);
+	  char msg[100];
+	  snprintf(msg, 100, "voltage %.6f\r\n", voltage);
+	  HAL_UART_Transmit(&huart3, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+
+	  voltage = Get_Voltage(PA4);
+	  snprintf(msg, 100, "voltage %.6f\r\n", voltage);
+	  HAL_UART_Transmit(&huart3, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+
+	  HAL_Delay(1000);
 
   }
   /* USER CODE END 3 */
@@ -688,6 +783,9 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOF, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, LD1_Pin|GPIO_PIN_12|LD3_Pin|LD2_Pin
                           |GPIO_PIN_8, GPIO_PIN_RESET);
 
@@ -718,6 +816,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PA0 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : LD1_Pin PB12 LD3_Pin LD2_Pin
                            PB8 */

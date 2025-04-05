@@ -73,3 +73,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-05 14:07:30.523
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-04-05 14:58:59.088 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-05 14:59:05.429
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-05 14:59:05.430
+!MESSAGE Log4j2 initialized with config file E:\UT\2024-2025\RSX_MCU\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-05 14:59:14.371
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-05 15:39:01.167
+!MESSAGE Indexed 'RSX_MCU_code3' (33 sources, 127 headers) in 5.66 sec: 15,621 declarations; 101,952 references; 3 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.12%)

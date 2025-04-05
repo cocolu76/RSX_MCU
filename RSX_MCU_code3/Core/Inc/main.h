@@ -31,12 +31,40 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+typedef enum {
+  PA3,
+  PA4,
+  PA5,
+  PA6,
+  PF4,
+  PF5,
+  PF7
+} VoltageSelection;
 
+typedef enum {
+  PF9,
+  PF10
+} CurrentSelection;
+
+typedef enum {
+  PB1,
+  PC0,
+  PC2,
+  PC3
+} TemperatureSelection;
+
+typedef enum {
+  PE2,
+  PD11,
+  PD12,
+  PD13,
+  PA0
+} DCtoDCSelection;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -53,7 +81,10 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+float Get_Voltage(VoltageSelection v_sel);
+float Get_Current(CurrentSelection I_sel);
+float Get_Temperature(TemperatureSelection T_sel);
+bool Enable(DCtoDCSelection DC_sel);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
