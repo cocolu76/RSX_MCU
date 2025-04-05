@@ -8757,3 +8757,143 @@ org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of 
 	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
 	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
 	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:47.898
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:48.902
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:49.898
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:50.898
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:51.892
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:52.892
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:53.893
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:54.886
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:55.884
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:56.909
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:57.882
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:58.884
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:45:59.893
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:46:00.899
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
