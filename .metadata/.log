@@ -1,18 +1,32 @@
-!SESSION 2025-03-08 13:52:24.227 -----------------------------------------------
+!SESSION 2025-04-05 14:05:16.880 -----------------------------------------------
 eclipse.buildId=Version 1.18.0
 java.version=21.0.3
 java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-08 13:52:31.506
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+This is a continuation of log file C:\Users\IWMAI\Documents\RSX_MCU\.metadata\.bak_0.log
+Created Time: 2025-04-05 14:31:12.892
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-08 13:52:31.508
-!MESSAGE Log4j2 initialized with config file E:\UT\2024-2025\RSX_MCU\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:31:12.892
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-08 13:52:35.023
-!MESSAGE Started RMI Server, listening on port 41337
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2025-04-05 14:31:13.881
+!MESSAGE Failed to parse wmic output
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderWindows.run(SerialPortProviderWindows.java:127)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-08 14:05:20.621
 !MESSAGE Indexed 'RSX_MCU_code3' (26 sources, 91 headers) in 8.44 sec: 7,870 declarations; 48,913 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
